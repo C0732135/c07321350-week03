@@ -8,8 +8,13 @@ namespace c0732135_week3
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        static void Main(string[] args) { }
+    }
+     
+        
+    class Node
+    {
+        Node Previousnode;
+        Node nextnode;
     }
 }
