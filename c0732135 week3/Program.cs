@@ -36,6 +36,13 @@ namespace LinkedLists
             Maeland.NextVillage = Schenig;
             Schenig.NextVillage = Alst;
         }
+        public void FindAstrilde()
+        {
+            Village CurrentVillage = this.Maeland;
+            if(CurrentVillage.isAstrildeHere)
+            {
+                Console.WriteLine("Hugi found Astrilde!!");            }
+        }
 
         public void WalkAround()
         {
