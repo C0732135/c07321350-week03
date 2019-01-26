@@ -10,11 +10,21 @@ namespace c0732135_week3
     {
         static void Main(string[] args) { }
     }
+    class Countryside
+    {
+        Village alst;
+        Village Schenig;
+        Village Maeland;
+        
+    }
      
         
-    class Node
+    class Village
     {
-        Node Previousnode;
-        Node nextnode;
+        Village Previousnode;
+        Village nextnode;
+        String VillageName;
+        bool isAstrildeHere = false;
+        public Village() { }
     }
 }
